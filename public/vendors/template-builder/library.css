@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&display=swap');
+body{
+    width: 100%;
+    margin: 0;
+    padding: 8px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.peb-btn{
+    padding: 8px 16px;
+    border-radius: 4px;
+    margin: 8px;
+    cursor: pointer;
+}
+.peb-nowrap{
+    text-wrap: nowrap;
+}
+.peb-btn-danger{
+    border: 1px solid #EA4335;
+    background-color: #ffe3e0;
+    color: #EA4335;
+}
+.peb-btn-primary{
+    border: 1px solid #4B21EE;
+    background-color: #e4ddff;
+    color: #4B21EE;
+}
+.peb-btn-xs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 8px;
+    border-radius: 3px;
+}
+.peb-justify-content-between{
+    justify-content: space-between;
+}
+.peb-justify-content-end{
+    justify-content: end;
+}
+.grab-svg{
+    display: none;
+}
+.handle {
+    cursor: grab;
+}
+.m-1{
+    margin: 8px;
+}
+.ms-1{
+    margin-left: 8px;
+}
+.me-1{
+    margin-right: 8px;
+}
+.mt-1{
+    margin-top: 8px;
+}
+.mb-1{
+    margin-bottom: 8px;
+}

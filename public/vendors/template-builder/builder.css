@@ -1,0 +1,60 @@
+#peb-builder-container{
+    width: 100%;
+    min-height: 500px;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+}
+#peb-component-container{
+    width: 100%;
+    max-width: 360px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+#peb-component-container > div{
+    border: 1px solid #4b21ee33;
+    margin-bottom: 8px;
+    padding: 8px 16px;
+}
+#peb-general-option{
+    padding: 8px;
+}
+#peb-template-parent-container{
+    max-width: 990px;
+    width: 100%;
+    border: 12px solid #4b21ee33;
+    align-self: baseline;
+}
+#peb-template-container{
+    min-height: 200px;
+}
+
+.peb-component-block {
+    background-color: #4b21ee0d;
+    padding: 16px 24px;
+    margin: 16px 8px;
+    justify-content: space-between;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.peb-input-container{
+    padding: 4px;
+    display: flex;
+    align-items: center;
+}
+.peb-input{
+    border: 1px solid #aaa;
+    padding: 4px 8px;
+}
+.peb-num-input{
+    width: 64px;
+}
+.peb-color-input{
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    width: 24px;
+}

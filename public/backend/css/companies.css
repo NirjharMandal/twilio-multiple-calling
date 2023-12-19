@@ -1,0 +1,98 @@
+.company-logo {
+    width: 36px;
+    display: inline-block;
+    height: 36px;
+}
+.company-base-logo{
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+/* .dropdown-company-details {
+    max-width: 420px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 64px;
+    visibility: hidden;
+    opacity: 0;
+    background: #FFFFFF;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border: none;
+    border-radius: 2px;
+    z-index: 1;
+    transition: var(--theme-transition);
+
+} */
+/* .hover-com-details:hover .dropdown-company-details.show{
+    display: block;
+} */
+
+/* .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+    max-width: 420px;
+    position: absolute;
+    inset: auto;
+    margin: 0px;
+    transform: translate(0, -200px);
+}
+.dropdown .dropdown-menu.show{
+    display: none;
+    margin-top: 0;
+} */
+
+
+
+
+.companies-data-table {
+    max-height: calc(100vh - 305px);
+}
+.accordion-item.added-step::after{
+    left: -36px;
+}
+.accordion-item.added-step:last-child:after{
+   display: none;
+}
+
+.company-accordion-button:after{
+    display: none !important;
+}
+button.active.btn.btn-outline-light.btn-sm,button.btn.btn-outline-light.btn-sm:hover {
+    border-color: var(--primary);
+    background: none;
+}
+
+.ws-deal-status:not(:last-of-type)::before {
+    content: '';
+    position: absolute;
+    top: 28%;
+    right: 16px;
+    color: var(--secondary);
+    background: url(../images/vertical-dots.svg) no-repeat;
+    width: 6px;
+    height: 18px;
+    transform: rotate(90deg)  translateY(-50%);
+}
+
+.asa{
+    position: relative;
+}
+.asa::before{
+    content: '';
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background: red;
+    top: 0;
+    left: 0;
+}
+.company-latest-activitie{
+    display: flex;
+    padding: 0 16px 0 16px;
+}
+.company-latest-activitie:not(:last-child){
+    margin-bottom: 16px;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 16px;
+}

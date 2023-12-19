@@ -1,0 +1,237 @@
+.prospect-lists-folder {
+    height: calc(100vh - 230px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 0;
+    max-width: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.4s ease-in;
+}
+.prospect-lists-folder.show-list {
+    max-width: 300px;
+    width: 100%;
+    visibility: visible;
+    opacity: 1;
+    padding-right: 24px;
+}
+
+
+.prospect-lists-table {
+    width: calc(100% - 300px);
+    margin-left: auto;
+    transition: 0.4s;
+}
+.prospect-lists-table.table-expand{
+    width: calc(100% - 0px);
+}
+.prospect-lists {
+    height: calc(100vh - 380px);
+    overflow: auto;
+}
+/* .prospect-lists .list-group-item:hover, .prospect-lists .list-group-item.active {
+    background: var(--secondary-light);
+    color: var(--secondary);
+    border-color: transparent !important;
+} */
+.prospect-lists .list-group-item+.list-group-item {
+    border-top-width: 0;
+}
+.prospect-list-actions{
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in;
+    overflow: hidden;
+    width: 0;
+}
+/* .prospect-lists .list-group-item:hover .prospect-list-name{
+    display: flex;
+    transition: 0.8s;
+} */
+/* .prospect-lists .list-group-item:hover .prospect-list-name span{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+    transition: 0.3s ease-in;
+}
+.prospect-lists .list-group-item:hover .prospect-list-actions{
+    visibility: visible;
+    opacity: 1;
+    overflow: auto;
+    width: 100%;
+} */
+.prospect-list-count{
+    visibility: visible;
+    opacity: 1;
+    transition: 0.3s ease-in;
+}
+.prospect-lists .list-group-item:hover .prospect-list-name .prospect-list-count{
+    visibility: hidden;
+    opacity: 0;
+    overflow: hidden;
+    width: 0;
+}
+.prospect-data-table {
+    max-height: calc(100vh - 337px);
+    /*min-height: calc(100vh - 349px);*/
+}
+
+.prospect-table-filter-item {
+    font-weight: 500;
+    font-size: var(--fs-sm);
+    line-height: 1.3;
+    margin-right: 32px;
+}
+
+.prospect-table-filter-item:last-child {
+    margin-right: 0;
+}
+
+/*.prospect-data-table .table-header:last-child,*/
+/*.prospect-data-table .table-details:last-child {*/
+/*    width: 45px;*/
+/*}*/
+
+.prospect-data-table .badge:last-child {
+    margin-right: 0;
+}
+
+/* Prospect Marketplace style here... */
+.marketplace-item {
+    padding: 20px 32px;
+    background: var(--light-secondary);
+}
+
+/* prospect profile (Off canvas) */
+/* Upload Prospect */
+.import-csv-wrap {
+    padding: 40px;
+    max-width: 660px;
+    margin: 0 auto;
+    width: 100%;
+}
+.upload-before-csv,
+.upload-after-csv,
+.prospect-tab-inner{
+    min-height: calc(100vh - 183px);
+}
+.upload-after-csv-inner{
+    max-height: calc(100vh - 268px);
+    overflow: auto;
+    padding-right: 12px;
+}
+
+.upload-csv-data-table .table-details:nth-child(1) {
+    width: 180px;
+}
+.upload-csv-data-table .table-details:nth-child(2) {
+    width: 230px;
+}
+.upload-csv-data-table .table-header:nth-child(3),
+.upload-csv-data-table .table-details:nth-child(3) {
+    padding-left: 56px;
+}
+.prospect-create-manually-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: calc(100vh - 155px);
+}
+.prospect-create-manually {
+    max-height: calc(100vh - 282px);
+    overflow: auto;
+}
+
+.prospect-profile-item {
+    width: 32px;
+    height: 36px;
+    border: 1px solid #E3E3E3;
+    /* margin: 0 10px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+    /* box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.1); */
+    border-radius: 4px;
+}
+
+.contact-profile-wrap .user-profile-img {
+    max-width: 80px;
+    width: 80px;
+    height: 80px;
+    max-width: 80px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+    display: block;
+
+}
+.prospect-edit-status{
+    max-width: 140px;
+    width: 100%;
+}
+
+/* Prospect Update */
+.upload-state-wrap{
+    min-height: calc(100vh - 230px);
+}
+.upload-state-inner{
+    max-height: calc(100vh - 237px);
+    overflow: auto;
+}
+
+/* failed emails data table */
+.failed-emails-data-table{
+    max-height: calc(100vh - 200px);
+    overflow: auto;
+}
+
+
+
+/* Empty Prospect Area style here... */
+.empty-prospect-body {
+    min-height: calc(100vh - 330px);
+    padding-top: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.color-suggestion{
+    width: 16px;
+    height: 12px;
+    margin-right: 2px;
+}
+.custom-variable-dropdown{
+    width: auto;
+    max-height: 350px;
+    overflow: auto;
+}
+.prospect-status-select .theme-select-value:after{
+    display: none;
+}
+.prospect-status-select .dropdown-toggle::before{
+    display:none;
+}
+/*.prospect-status-arrow{*/
+/*    position: absolute;*/
+/*    right: 0;*/
+/*    z-index: -1;*/
+/*}*/
+.prospect-status-arrow {
+    transition: var(--theme-transition);
+    display: inline-flex;
+    top: 8px;
+}
+.prospect-status-select.show .prospect-status-arrow {
+    transform: rotate(180deg);
+}
+.prospect-status-select.show .theme-select-inline-table .prospect-status-arrow {
+    transform: rotate(180deg);
+}

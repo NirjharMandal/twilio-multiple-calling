@@ -1,0 +1,114 @@
+{
+    "google": {
+        "smtp_host": "smtp.gmail.com",
+        "smtp_port": 465,
+        "smtp_encryption": "ssl",
+        "imap_host": "imap.googlemail.com",
+        "imap_port": 993,
+        "imap_encryption": "ssl"
+    },
+    "yahoo": {
+        "smtp_host": "smtp.mail.yahoo.com",
+        "smtp_port": 465,
+        "smtp_encryption": "ssl",
+        "imap_host": "imap.mail.yahoo.com",
+        "imap_port": 993,
+        "imap_encryption": "ssl"
+    },
+    "yahoodns": {
+        "smtp_host": "smtp.mail.yahoo.com",
+        "smtp_port": 465,
+        "smtp_encryption": "ssl",
+        "imap_host": "imap.mail.yahoo.com",
+        "imap_port": 993,
+        "imap_encryption": "ssl"
+    },
+    "sendgrid": {
+        "smtp_host": "smtp.sendgrid.net",
+        "smtp_port": 587,
+        "smtp_encryption": "tls",
+        "imap_host": "simap.sendgrid.net",
+        "imap_port": 587,
+        "imap_encryption": "ssl"
+    },
+    "yandex": {
+        "smtp_host": "smtp.yandex.ru",
+        "smtp_port": 465,
+        "smtp_encryption": "ssl",
+        "imap_host": "simap.yandex.ru",
+        "imap_port": 993,
+        "imap_encryption": "ssl"
+    },
+    "aol": {
+        "smtp_host": "smtp.aol.com",
+        "smtp_port": 465,
+        "smtp_encryption": "ssl",
+        "imap_host": "imap.aol.com",
+        "imap_port": 993,
+        "imap_encryption": "ssl"
+    },
+    "sendinblue": {
+        "smtp_host": "smtp-reply.sendinblue.com",
+        "smtp_port": 587,
+        "smtp_encryption": "tls",
+        "imap_host": "imap.sendinblue.com",
+        "imap_port": 993,
+        "imap_encryption": "ssl"
+    },
+    "outlook": {
+        "smtp_host": "smtp-mail.outlook.com",
+        "smtp_port": 587,
+        "smtp_encryption": "tls",
+        "imap_host": "imap-mail.outlook.com",
+        "imap_port": 993,
+        "imap_encryption": "ssl"
+    },
+    "office365": {
+        "smtp_host": "smtp.office365.com",
+        "smtp_port": 587,
+        "smtp_encryption": "tls",
+        "imap_host": "outlook.office365.com",
+        "imap_port": 993,
+        "imap_encryption": "ssl"
+    },
+    "mailgun": {
+        "smtp_host": "smtp.mailgun.org",
+        "smtp_port": 587,
+        "smtp_encryption": "tls",
+        "imap_host": "imap.mailgun.com",
+        "imap_port": 993,
+        "imap_encryption": "ssl"
+    },
+    "ses": {
+        "smtp_host": "email-smtp.us-east-1.amazonaws.com",
+        "smtp_port": 587,
+        "smtp_encryption": "tls",
+        "imap_host": "email-imap.us-east-1.amazonaws.com",
+        "imap_port": 993,
+        "imap_encryption": "ssl"
+    },
+    "icloud": {
+        "smtp_host": "smtp.mail.me.com",
+        "smtp_port": 587,
+        "smtp_encryption": "tls",
+        "imap_host": "imap.mail.me.com",
+        "imap_port": 993,
+        "imap_encryption": "ssl"
+    },
+    "zoho": {
+        "smtp_host": "smtp.zoho.com",
+        "smtp_port": 465,
+        "smtp_encryption": "ssl",
+        "imap_host": "imap.zoho.com",
+        "imap_port": 993,
+        "imap_encryption": "ssl"
+    },
+    "zohoPro": {
+        "smtp_host": "smtppro.zoho.com",
+        "smtp_port": 465,
+        "smtp_encryption": "ssl",
+        "imap_host": "imappro.zoho.com",
+        "imap_port": 993,
+        "imap_encryption": "ssl"
+    }
+}

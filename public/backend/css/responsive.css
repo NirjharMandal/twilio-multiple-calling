@@ -1,0 +1,253 @@
+@media (max-width: 1600px) {
+    .dashboard-task-list{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        max-width: 320px;
+        display: inline-block;
+    }
+    .overview-stats{
+        flex-direction: column;
+    }
+    .overview-stats-left{
+        width: 100%;
+    }
+    .overview-stats-right{
+        width: 100%;
+        text-align: left;
+        margin-top: 16px;
+    }
+    .sending-summary-overview{
+        margin-top: 16px !important;
+        justify-content: start;
+    }
+}
+
+@media (max-width: 1399px) {
+    .inbox-email-page-right{
+        max-height: calc(100vh - 230px);
+    }
+    .dashboard-task-list{
+        max-width: 100%;
+    }
+    .modal-dialog {
+        max-width: 580px;
+    }
+    .modal-md {
+        max-width: 460px;
+    }
+    .modal-sm {
+        max-width: 380px;
+    }
+    .email-provider-item {
+        height: 92px;
+        border-radius: 4px;
+        text-align: center;
+    }
+    .email-provider-item svg {
+        width: 32px;
+        height: 32px;
+    }
+    .email-provider-item .title-sm {
+        font-size: var(--fs-xs);
+    }
+    .user-profile-wrap .dropdown-toggle {
+        padding-right: 24px;
+    }
+    .dashboard-chart-height{
+        min-height: unset;
+    }
+    .loading-warmup{
+        min-height: 210px;
+    }
+    .funnel-bar-item{
+        padding: 0 24px;
+    }
+    .funnel-item-sm{
+        padding: 0 16px;
+    }
+
+    .twilio-call-screenshot-item:nth-child(3)::before {
+        transform: translateY(-50%) rotate(0deg);
+    }
+}
+
+@media (max-width: 1199px) {
+    .prospect-data-table {
+        max-height: calc(100vh - 380px);
+    }
+    .ms-40 {
+        margin-left: 24px;
+    }
+    .theme-search-box-wrap .form-control{
+        min-width: 176px;
+    }
+    .table> :not(caption)>*>* {
+        padding: 6px 8px;
+    }
+    .table-header,
+    .table-details{
+        font-size: var(--fs-sm);
+    }
+    .btn-step {
+        padding: 4px 8px;
+        margin: 0;
+    }
+    .marketplace-item {
+        padding: 16px;
+    }
+    .prospect-lists-folder{
+        max-width: 210px;
+    }
+
+    .theme-sidenav-wrap{
+        width: 60px;
+    }
+    .main {
+        margin-left: 60px;
+    }
+    .added-step::after {
+        /* left: 28px; */
+    }
+    .offcanvas-body .added-step::after {
+        left: 11px;
+    }
+    .overview-stats-item{
+        font-size: var(--fs-sm);
+    }
+    .reports-overview-grid{
+        grid-template-columns: repeat(4,minmax(20px,1fr));
+    }
+    .funnel-bar {
+        width: 56px;
+    }
+    .twilio-call-screenshot-item:nth-child(2)::before {
+        transform: translateY(-50%) rotate(0deg);
+    }
+    .twilio-call-screenshot-item:nth-child(3)::before {
+        transform: translateY(-50%) rotate(-90deg);
+    }
+    .inbox-email-box-wrap{
+        flex-wrap: wrap;
+    }
+    .new-inbox-left{
+        width: 100%;
+        max-width: 40%;
+    }
+    .new-inbox-middle {
+        max-width: 100%;
+        width: 60%;
+    }
+    .new-inbox-left-wrap {
+        max-width: 100%;
+    }
+}
+
+
+@media (max-width: 991px) {
+    .dashboard-task-list{
+        max-width: 360px;
+    }
+    body {
+        font-size: var(--fs-sm);
+    }
+
+    .btn {
+        font-size: var(--fs-sm);
+    }
+
+    .user-dropdown-toggle::after {
+        display: none;
+    }
+
+    .modal-body {
+        padding: 0 24px 24px 24px;
+    }
+    .nav-security .w-50{
+        width: 100% !important;
+    }
+    .settings-wrap {
+        width: calc(100%);
+    }
+    .profile-wrap {
+        min-height: 100%;
+        max-width: 100%;
+    }
+    .reports-overview-grid{
+        grid-template-columns: repeat(3,minmax(20px,1fr));
+    }
+    .funnel-bar {
+        width: 48px;
+    }
+    .funnel-bar-item {
+        padding: 0 16px;
+    }
+    .funnel-bar {
+        height: 260px;
+    }
+    .ws-deal-status::before {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .title-lg{
+        font-size: var(--fs-md);
+    }
+    .odometer-value {
+        font-size: 20px;
+    }
+    .dashboard-task-list{
+        max-width: 360px;
+    }
+    .reports-overview-grid{
+        grid-template-columns: repeat(2,minmax(20px,1fr));
+    }
+    .funnel-bar {
+        width: 42px;
+    }
+    .new-inbox-left-wrap {
+        max-width: 100%;
+        flex-wrap: wrap;
+    }
+    .new-inbox-middle{
+        border-left: none !important;
+    }
+    .new-inbox-left{
+        width: 100%;
+        max-width: 100%;
+        padding: 24px;
+    }
+    .new-inbox-middle {
+        max-width: 100%;
+        width: 100%;
+        border-top: 1px solid var(--border);
+    }
+}
+@media (max-width: 575px) {
+    .reports-overview-grid{
+        grid-template-columns: repeat(1,minmax(20px,1fr));
+    }
+    .twilio-call-screenshot-item:nth-child(2)::before {
+        transform: translateY(-50%) rotate(-90deg);
+    }
+    .twilio-call-screenshot-item:nth-child(3)::before {
+        transform: translateY(-50%) rotate(-90deg);
+    }
+    .twilio-call-screenshot-item:not(:last-of-type)::before {
+        content: "";
+        transform: translateY(-50%) rotate(0deg) !important;
+        bottom: -28px;
+        top: auto;
+        left: 50%;
+        right: auto;
+    }
+}
+@media (max-width: 480px) {
+    .dashboard-task-list{
+        max-width: 150px;
+    }
+    .modal-body {
+        padding: 0 20px 16px 20px;
+    }
+}

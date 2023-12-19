@@ -1,0 +1,166 @@
+.upgrade-type-icon {
+    width: 100%;
+    max-width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--primary);
+    color: var(--white);
+    margin-right: 12px;
+    border-radius: 4px;
+}
+
+.deals-company-logo {
+    max-width: 42px;
+    height: 42px;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.pipeline-wrap {
+    height: calc(100% - 24px);
+}
+
+.pipeline-box {
+    height: 85px;
+    margin-bottom: 0px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pipeline-box::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--primary);
+    border-radius: 16px;
+    transform: perspective(300px) rotateX(-30deg);
+}
+
+.pipeline-box-1::before {
+    background-color: var(--pb-1-bg);
+}
+
+.pipeline-box-2::before {
+    background-color: var(--pb-2-bg);
+}
+
+.pipeline-box-3::before {
+    background-color: var(--pb-3-bg);
+}
+
+.pipeline-box-4::before {
+    background-color: var(--pb-4-bg);
+}
+
+.pipeline-boxtext {
+    position: absolute;
+    left: 50%;
+    top: calc(50% - 3px);
+    transform: translate(-50%, -50%);
+    color: var(--white);
+    font-weight: bolder;
+    line-height: 1;
+}
+
+
+/* ============================================================== */
+/* ==================== New Dashboard design ==================== */
+/* ============================================================== */
+
+.dashbord-circle-item-wrap {
+    border-radius: 8.009px;
+    border: 1px solid #7B59FF;
+    background: linear-gradient(88deg, rgba(242, 239, 255, 0.50) 51.67%, rgba(255, 255, 255, 0.00) 113.31%);
+    backdrop-filter: blur(12px);
+    height: 150px;
+}
+
+/* .dashbord-circle-item {
+    width: 250px;
+    margin-left: -10px;
+    height: 120px;
+    border: 24px solid var(--white);
+    background: transparent;
+    border-radius: 180px 180px 0 0;
+    text-align: center;
+    filter: drop-shadow(0px 4.814159393310547px 48.14159393310547px rgba(0, 0, 0, 0.10));
+    border-bottom: 0;
+} */
+
+.graph-3 {
+    background: url(../images/Graph2.png) no-repeat;
+    background-position: 0px -16px;
+    background-size: cover;
+}
+
+/* ================ */
+.chart-rotation *,
+.chart-rotation::before {
+    box-sizing: border-box;
+}
+
+/* CHART-SKILLS STYLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+
+.chart-rotation::before,
+.chart-rotation::after {
+    position: absolute;
+}
+
+.chart-rotation::before {
+    content: "";
+    width: inherit;
+    height: inherit;
+    border: 24px solid #fff;
+    border-bottom: none;
+    border-top-left-radius: 175px;
+    border-top-right-radius: 175px;
+    filter: drop-shadow(0px 4.814159393310547px 48.14159393310547px rgba(0, 0, 0, 0.10));
+}
+
+#rotation {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: inherit;
+    height: inherit;
+    border: 24px solid;
+    border-top: none;
+    border-bottom-left-radius: 175px;
+    border-bottom-right-radius: 175px;
+    transform-origin: 50% 0;
+    transform: rotate(0deg);
+    z-index: 4;
+    border-color: #2EBD59;
+}
+:not(:last-child).dashboard-calendar-content-item{
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+    border-bottom: 1px solid var(--border)
+}
+.dashboard-left-contents{
+    min-width: 900px;
+}
+.chart-rotation {
+    position: relative;
+    width: 250px;
+    height: 125px;
+}
+@media (min-width: 1600px) { 
+    .chart-rotation {
+        position: relative;
+        width: 350px;
+        height: 175px;
+        top: -8px;
+        left: -8px;
+        /* overflow: hidden; */
+    }
+ }

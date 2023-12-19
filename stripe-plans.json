@@ -1,0 +1,66 @@
+{
+    "live" : {
+        "yearly": {
+            "salesMix" : {
+                "price_1M7YEVFbMJ9rl19lKPkQ5Szx": {"id": "price_1M7YEVFbMJ9rl19lKPkQ5Szx", "name": "Starter", "sending_credit":25000,"upload_credit":5000, "price": 250, "interval": "year", "addOnsType": "salesmix","description": "Create campaigns and grow your customer base."},
+                "price_1M7YGKFbMJ9rl19lQmBmrfKH": {"id": "price_1M7YGKFbMJ9rl19lQmBmrfKH", "name": "Business", "sending_credit":50000,"upload_credit":10000, "price": 500, "interval": "year", "addOnsType": "salesmix","description": "Expand your business, warm up your emails and close more deals."},
+                "price_1M7YHuFbMJ9rl19lAesk0Hag": {"id": "price_1M7YHuFbMJ9rl19lAesk0Hag", "name": "Team", "sending_credit":100000,"upload_credit":25000, "price": 990, "interval": "year", "addOnsType": "salesmix", "description": "Personalize your outbound content and optimize your campaigns and sell more."}
+            },
+            "leads" : {
+                "price_1M7YEVFbMJ9rls19lKPkQ5Szx": {"id": "price_1M7YEVFbMJ9rl19lKPkQ5Szx", "name": "Starter", "sending_credit":25000,"upload_credit":5000, "price": 250, "interval": "year", "addOnsType": "salesmix", "description": "Expand your business, warm up your emails and close more deals."}
+            },
+            "verification" : {
+                "price_1M7YEVFbMJ9rl19dlKPkQ5Szx": {"id": "price_1M7YEVFbMJ9rl19lKPkQ5Szx", "name": "Starter", "sending_credit":25000,"upload_credit":5000, "price": 250, "interval": "year", "addOnsType": "salesmix", "description": "Expand your business, warm up your emails and close more deals."}
+            }
+        },
+        "monthly": {
+            "salesMix" : {
+                "price_1M7Y6JFbMJ9rl19lkOAwcRfB": {"id": "price_1M7Y6JFbMJ9rl19lkOAwcRfB", "name": "Starter", "sending_credit":25000,"upload_credit":5000, "price": 25, "interval": "month", "addOnsType": "salesmix", "description": "Create campaigns and grow your customer base."},
+                "price_1M7Y72FbMJ9rl19lzwz3usde": {"id": "price_1M7Y72FbMJ9rl19lzwz3usde", "name": "Business", "sending_credit":50000,"upload_credit":10000, "price": 50, "interval": "month", "addOnsType": "salesmix", "description": "Expand your business, warm up your emails and close more deals."},
+                "price_1M7Y82FbMJ9rl19lwOTyGeYF": {"id": "price_1M7Y82FbMJ9rl19lwOTyGeYF", "name": "Team", "sending_credit":100000,"upload_credit":25000, "price": 99, "interval": "month", "addOnsType": "salesmix", "description": "Personalize your outbound content and optimize your campaigns and sell more."}
+            },
+            "leads" : {
+                "price_1M7YEVFbMJ9rls19lKPkQ5Szx": {"id": "price_1M7YEVFbMJ9rl19lKPkQ5Szx", "name": "Starter", "sending_credit":25000,"upload_credit":5000, "price": 250, "interval": "year", "addOnsType": "salesmix", "description": "Expand your business, warm up your emails and close more deals."}
+            },
+            "verification" : {
+                "price_1M7YEVFbMJ9rl19dlKPkQ5Szx": {"id": "price_1M7YEVFbMJ9rl19lKPkQ5Szx", "name": "Starter", "sending_credit":25000,"upload_credit":5000, "price": 250, "interval": "year", "addOnsType": "salesmix", "description": "Expand your business, warm up your emails and close more deals."}
+            }
+        }
+    },
+    "test" : {
+        "yearly": {
+            "salesMix" : {
+                "price_1M7YSCFbMJ9rl19ls0WT1whE": {"id": "price_1M7YSCFbMJ9rl19ls0WT1whE", "name": "Starter", "sending_credit":25000,"upload_credit":5000, "price": 250, "interval": "year", "addOnsType": "salesmix", "description": "Create campaigns and grow your customer base."},
+                "price_1M7YRpFbMJ9rl19lwbozL51u": {"id": "price_1M7YRpFbMJ9rl19lwbozL51u", "name": "Business", "sending_credit":50000,"upload_credit":10000, "price": 500, "interval": "year", "addOnsType": "salesmix", "description": "Expand your business, warm up your emails and close more deals."},
+                "price_1M7YQpFbMJ9rl19lHiHX4NdE": {"id": "price_1M7YQpFbMJ9rl19lHiHX4NdE", "name": "Team", "sending_credit":100000,"upload_credit":25000, "price": 990, "interval": "year", "addOnsType": "salesmix", "description": "Personalize your outbound content and optimize your campaigns and sell more."}
+            },
+            "leads" : {
+                "price_1MLghDFbMJ9rl19lVJBM9CeK" : {"id" : "price_1MLghDFbMJ9rl19lVJBM9CeK", "name" : "Freelancer", "interval": "year", "price": 990, "credits": 3000, "addOnsType" : "leads", "description": "Expand your business, warm up your emails and close more deals."},
+                "price_1MLghDFbMJ9rl19lmVghdtP8" : {"id" : "price_1MLghDFbMJ9rl19lmVghdtP8", "name" : "Startup", "interval": "year", "price": 1990, "credits": 9000, "addOnsType" : "leads", "description": "Expand your business, warm up your emails and close more deals."},
+                "price_1MLghDFbMJ9rl19lWahK1gqt" : {"id" : "price_1MLghDFbMJ9rl19lWahK1gqt", "name" : "Agency", "interval": "year", "price": 3990, "credits": 24000, "addOnsType" : "leads", "description": "Expand your business, warm up your emails and close more deals."}
+            },
+            "verification" : {
+                "price_1MLgjIFbMJ9rl19lhrhJurEn": {"id": "price_1MLgjIFbMJ9rl19lhrhJurEn", "name": "Basic", "interval": "year", "price": 190, "credits": 30000, "addOnsType": "verification", "description": "Expand your business, warm up your emails and close more deals."},
+                "price_1MLgjIFbMJ9rl19lyuvkixNg": {"id": "price_1MLgjIFbMJ9rl19lyuvkixNg", "name": "Essentials", "interval": "year", "price": 300, "credits": 60000, "addOnsType": "verification", "description": "Expand your business, warm up your emails and close more deals."},
+                "price_1MLgjIFbMJ9rl19l76l1Ne0M": {"id": "price_1MLgjIFbMJ9rl19l76l1Ne0M", "name": "Standard", "interval": "year", "price": 450, "credits": 120000, "addOnsType": "verification", "description": "Expand your business, warm up your emails and close more deals."}
+            }
+        },
+        "monthly": {
+            "salesMix" : {
+                "price_1M7YTCFbMJ9rl19lkMnjWQGF": {"id": "price_1M7YTCFbMJ9rl19lkMnjWQGF", "name": "Starter", "sending_credit":25000,"upload_credit":5000, "price": 25, "interval": "month", "addOnsType": "salesmix", "description": "Create campaigns and grow your customer base."},
+                "price_1M7YSuFbMJ9rl19l4qc9Zvvy": {"id": "price_1M7YSuFbMJ9rl19l4qc9Zvvy", "name": "Business", "sending_credit":50000,"upload_credit":10000, "price": 50, "interval": "month", "addOnsType": "salesmix", "description": "Expand your business, warm up your emails and close more deals."},
+                "price_1M7YSbFbMJ9rl19lA12UWsal": {"id": "price_1M7YSbFbMJ9rl19lA12UWsal", "name": "Team", "sending_credit":100000,"upload_credit":25000, "price": 99, "interval": "month", "addOnsType": "salesmix", "description": "Personalize your outbound content and optimize your campaigns and sell more."}
+            },
+            "leads" : {
+                "price_1MLghDFbMJ9rl19lvz0RGWQF": {"id" : "price_1MLghDFbMJ9rl19lvz0RGWQF", "name" : "Freelancer", "interval": "month", "price": 99, "credits": 250, "addOnsType" : "leads", "description": "Expand your business, warm up your emails and close more deals."},
+                "price_1MLghDFbMJ9rl19lTPGGICe3": {"id" : "price_1MLghDFbMJ9rl19lTPGGICe3", "name" : "Startup", "interval": "month", "price": 199, "credits": 750, "addOnsType" : "leads", "description": "Expand your business, warm up your emails and close more deals."},
+                "price_1MLghDFbMJ9rl19lPLIPfSRR": {"id" : "price_1MLghDFbMJ9rl19lPLIPfSRR", "name" : "Agency", "interval": "month", "price": 399, "credits": 2000, "addOnsType" : "leads", "description": "Expand your business, warm up your emails and close more deals."}
+            },
+            "verification" : {
+                "price_1MLgjIFbMJ9rl19lpqhXr3hP" : {"id" : "price_1MLgjIFbMJ9rl19lpqhXr3hP", "name" : "Basic", "interval": "month", "price": 19, "credits" :2500, "addOnsType" : "verification", "description": "Expand your business, warm up your emails and close more deals."},
+                "price_1MLgjIFbMJ9rl19lrqcaQl9I" : {"id" : "price_1MLgjIFbMJ9rl19lrqcaQl9I", "name" : "Essentials", "interval": "month", "price": 30, "credits" : 5000, "addOnsType" : "verification", "description": "Expand your business, warm up your emails and close more deals."},
+                "price_1MLgjIFbMJ9rl19lMuDl8CI6" : {"id" : "price_1MLgjIFbMJ9rl19lMuDl8CI6", "name" : "Standard", "interval": "month", "price": 45, "credits" : 10000, "addOnsType" : "verification", "description": "Expand your business, warm up your emails and close more deals."}
+            }
+        }
+    }
+}

@@ -1,0 +1,73 @@
+.other-provider-form-wrap{
+    min-height: calc(100vh - 150px);
+}
+.other-provider-form{
+    max-height: calc(100vh - 202px);
+    overflow: auto;
+}
+.email-data-table{
+    max-height: calc(100vh - 266px);
+}
+.email-data-table .table-header:last-child,
+.email-data-table .table-details:last-child {
+    width: 280px;
+}
+.email-provider-item {
+    width: 164px;
+    height: 110px;
+    border-radius: 4px;
+    text-align: center;
+    background: var(--white);
+    transition: 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.email-provider-item:hover{
+    background: var(--light);
+}
+
+/* email provider table (Modal) */
+.email-provider-table .table-header:first-child,
+.email-provider-table .table-details:first-child{
+    padding-left: 8px;
+}
+.email-provider-table{
+    max-height: calc(100vh - 200px);
+}
+
+.email-provider-step{
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.3s linear;
+    height: 0;
+    overflow: hidden;
+}
+.active-step{
+    visibility: visible;
+    opacity: 1;
+    height: auto;
+}
+/* Empty Email style here... */
+.empty-email-body {
+    min-height: calc(100vh - 285px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 24px;
+    align-items: center;
+}
+
+.empty-email-img {
+    max-width: 180px;
+    margin: 0 auto;
+}
+
+.analytics-canvas-table{
+    max-height: 200px;
+}
+
+.table-email-warmup .table-details:last-child{
+width: 100px;
+}
